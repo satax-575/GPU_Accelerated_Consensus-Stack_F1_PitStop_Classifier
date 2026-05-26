@@ -1,0 +1,61 @@
+# Data files
+data/
+*.csv
+*.zip
+
+# Cache and outputs
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+feature_selection_cache.json
+submission.csv
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
